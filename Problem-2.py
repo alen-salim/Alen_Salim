@@ -11,6 +11,6 @@
 
 a = int(input("input : "))
 
-output = [ a for a in range(1,a+a,2)]
+output = [ a for a in range(1,a*a,2)]
 
 print("output :", output)
